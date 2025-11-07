@@ -65,7 +65,7 @@ const connect = () => {
                 case 'executeWebhook':
                     rawData.data.username = overrideUsername ?? rawData.data.username; // Set overrides
                     rawData.data.avatarURL = overrideAvatarURL ?? rawData.data.avatarURL;
-                    rawData.allowedMentions = { parse: [] }; // Under no circumstances should the webhook be able to send mentions
+                    rawData.data.allowedMentions = { parse: [] }; // Under no circumstances should the webhook be able to send mentions
 
                     webhookClient.send(rawData.data); // Send the message payload
                     break;
@@ -156,5 +156,6 @@ const connect = () => {
         ws.terminate();
     });
 };
+
 
 connect();
