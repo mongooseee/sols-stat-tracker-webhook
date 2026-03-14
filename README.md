@@ -2,7 +2,7 @@
 Connect to Sol's Stat Tracker to post stats found through a Discord webhook.
 
 ## Setup
-1. Download the latest release of [Sol's Stat Tracker Webhook](https://github.com/mongoo-se/sols-stat-tracker-webhook/releases).
+1. Download the latest release of [Sol's Stat Tracker Webhook](https://github.com/mongooseee/sols-stat-tracker-webhook/releases).
 2. Unzip the Sol's Stat Tracker Webhook file.
 3. Open the `config.js` file in Sol's Stat Tracker Webhook
 4. Using the Sol's Stat Tracker Discord bot, execute the `/generatetoken` command to generate an API token.
