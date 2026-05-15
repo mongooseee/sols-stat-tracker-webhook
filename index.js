@@ -11,6 +11,8 @@ const {
     gatewayURL, maxReconnectInterval, reconnectOnDuplicateConnection, verboseLogging // ADVANCED CONFIGURATION
 } = require('./config');
 
+console.warn('This repository has been archived. Please use https://github.com/solsstattracker/sols-stat-tracker-feed instead.');
+
 let reconnectInterval = 31_000;
 
 const webhookClient = new WebhookClient({ // Use the webhook URL to login to the webhook client

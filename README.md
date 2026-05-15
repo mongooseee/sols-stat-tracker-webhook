@@ -1,4 +1,8 @@
 # Sol's Stat Tracker Webhook
+> [!WARNING]
+> This repository has been archived and is no longer maintained.
+> Please use **Sol's Stat Tracker Feed** instead: https://github.com/solsstattracker/sols-stat-tracker-feed
+
 Connect to Sol's Stat Tracker to post stats found through a Discord webhook.
 
 ## Setup
